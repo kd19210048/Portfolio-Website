@@ -1,0 +1,331 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Kunal - Web Designer - Front-End - Portfolio
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+    <header class="bg-white shadow-md" id="navproblem">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="kd-heading">
+                Portfolio
+            </div>
+            <nav>
+                <ul class="flex space-x-8">
+                    <li>
+                        <a class="text-gray-600 hover-fade nav-link" href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover-fade nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover-fade nav-link" href="#skills">
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover-fade nav-link" href="#works">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover-fade nav-link" href="#education">
+                            Education
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover-fade nav-link" href="#contact">
+                            Contact
+                        </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center section visible" id="home">
+        <div class="flex-1 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                Hi,
+                <br />
+                I’m
+                <span class="text-blue-600">
+                    Kunal Deshmukh
+                </span>
+                <br />
+                <span id="element"></span>
+            </h1>
+            <p class="text-gray-700 mb-6">
+                Passionate About Front-End Development | Web Development | Building Interactive, User-Friendly Websites
+                | Fresher |
+            </p>
+            <div class="flex space-x-4 justify-center md:justify-start">
+                <a href="path/to/your/cv.pdf" download
+                    class="bg-blue-600 text-white px-6 py-2 rounded-full text-lg font-semibold" id="leftdownload">
+                    Download CV
+                </a>
+            </div>
+            <div class="social-icons justify-center md:justify-start">
+                <a href="https://www.linkedin.com/in/k-deshmukh/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/kd19210048"><i class="fab fa-github"></i></a>
+                <a href="mailto:kd19210048@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+8275237455"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+        <div class="flex-1 mt-8 md:mt-0 flex justify-center" id="upimage">
+            <div class="relative image-container" id="myimage">
+                <div class="circular-line"></div>
+                <img alt="Portrait of Kunal, a web designer, smiling and wearing glasses"
+                    class="relative rounded-full w-64 h-64 object-cover hover-zoom" height="256" src="images/1720630607172.jpg"
+                    width="256" />
+            </div>
+        </div>
+    </section>
+    <hr class="hr">
+    <!-- About Section -->
+    <section class="container mx-auto px-4 py-16 section" id="about">
+        <h2 class="text-3xl font-bold text-center mb-8" id="abouthd">
+            About Me
+        </h2>
+        <div class="flex flex-col1 md:flex-row1 items-center">
+            <div class="flex-1 text-center md:text-left mb-8 md:mb-0">
+                <p class="text-gray-700 leading-relaxed" style="text-align: justify; position: relative; right: 16px;"
+                    id="aboutinfo">
+                    I am a skilled developer with expertise in HTML, CSS, JavaScript, PHP, and Python. Passionate about
+                    creating user-friendly web applications to enhance user experience. Dedicated to streamlining
+                    communication and improving efficiency. Graduated in IT with a solid foundation in front-end design
+                    and development.
+                </p>
+            </div>
+            <div class="flex-1 flex justify-center" style="position: relative; left: 15px;">
+                <img alt="A sample of Marlon's web design work" class="rounded-lg hover-zoom" height="200"
+                    src="images/about me.png" width="300" />
+            </div>
+        </div>
+    </section>
+
+    <hr class="hr">
+
+    <!-- Skills Section -->
+    <section class="container mx-auto px-4 py-16 bg-white rounded-lg shadow-md section" id="skills">
+        <h2 class="text-3xl font-bold text-center mb-8">
+            Skills
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="text-center hover-zoom">
+                <i class="fas fa-code text-4xl text-blue-600 mb-4">
+                </i>
+                <h3 class="text-xl font-bold mb-2">
+                    HTML &amp; CSS
+                </h3>
+                <p class="text-gray-700">
+                    Expert in creating responsive and visually appealing web pages using HTML and CSS.
+                </p>
+            </div>
+            <div class="text-center hover-zoom">
+                <i class="fas fa-paint-brush text-4xl text-blue-600 mb-4">
+                </i>
+                <h3 class="text-xl font-bold mb-2">
+                    Web Design
+                </h3>
+                <p class="text-gray-700">
+                    Skilled in designing user-friendly and aesthetically pleasing websites.
+                </p>
+            </div>
+            <div class="text-center hover-zoom">
+                <i class="fab fa-js-square text-4xl text-blue-500 mb-4">
+                </i>
+                <h3 class="text-xl font-bold mb-2">
+                    JavaScript
+                </h3>
+                <p class="text-gray-700">
+                    Proficient in adding interactivity and dynamic features to web pages using JavaScript.
+                </p>
+            </div>
+            <div class="text-center hover-zoom">
+                <i class="fas fa-laptop-code text-4xl text-blue-600 mb-4">
+                </i>
+                <h3 class="text-xl font-bold mb-2">
+                    Front-End Development
+                </h3>
+                <p class="text-gray-700">
+                    Experience in building interactive and optimized user interfaces.
+                </p>
+            </div>
+            <div class="text-center hover-zoom">
+                <i class="fab fa-python text-5xl text-blue-600 mb-2">
+                </i>
+                <h3 class="text-xl font-bold mb-2">
+                    Python
+                </h3>
+                <p class="text-gray-700">
+                    Understanding of basic syntax, loops, and scripting for simple tasks.
+                </p>
+            </div>
+            <div class="text-center hover-zoom">
+                <i class="fab fa-php text-5xl text-blue-600 mb-1">
+                </i>
+                <h3 class="text-xl font-bold mb-2">
+                    PHP
+                </h3>
+                <p class="text-gray-700">
+                    Understanding of basic syntax, form handling, and integration with HTML.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hr">
+
+    <!-- Works Section -->
+    <section class="container mx-auto px-4 py-16 section" id="works">
+        <h2 class="text-3xl font-bold text-center mb-8">
+            Projects
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover-zoom" id="projects">
+                <img id="projectsimg" alt="Project 1 screenshot" class="w-full h-48 object-cover" height="300"
+                    src="images/Screenshot 2025-02-25 000937.png" width="400" />
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">
+                        Architectural Firm
+                    </h3>
+                    <p class="text-gray-700" id="projects-desc">
+                        Created and maintained a user-friendly web application for an architectural firm, where clients
+                        can explore available services, place orders, share feedback, and ask questions. Focused on
+                        improving the overall user experience and streamlining communication between the firm and its
+                        clients.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover-zoom" id="projects">
+                <img id="projectsimg" alt="Project 2 screenshot" class="w-full h-48 object-cover" height="300"
+                    src="images/Screenshot 2025-02-25 003953.png" width="400" />
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">
+                        Currency Converter
+                    </h3>
+                    <p class="text-gray-700" id="projects-desc">
+                        This is a clean and simple design for a currency converter. It features fields to enter the
+                        amount, select the "from" currency, and choose the "to" currency. A prominent "Convert" button
+                        makes it easy to use. The design has a modern feel with a gradient background.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover-zoom" id="projects">
+                <img id="projectsimg" alt="Project 3 screenshot" class="w-full h-48 object-cover" height="300"
+                    src="images/Screenshot 2025-02-25 004506.png" width="400" />
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">
+                        Digital Clock
+                    </h3>
+                    <p class="text-gray-700" id="projects-desc">
+                        This web-based clock application displays time in digital and analog formats. Users can switch
+                        between 12-hour and 24-hour formats and adjust the timezone. It offers background and clock hand
+                        color customization along with manual date and time editing. The reset and update buttons allow
+                        easy modifications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <hr class="hr">
+
+    <!-- Education Section -->
+    <section class="container mx-auto px-4 py-16 bg-white rounded-lg shadow-md section" id="education">
+        <h2 class="text-3xl font-bold text-center mb-8" id="edu">
+            Education
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-4" id="data1">
+                <h3 style="color: rgb(37 99 235 / 85%);" class="text-xl font-bold mb-2">
+                    Abhinav Jyana Mandir Jr.College Karjat, Raigad
+                </h3>
+                <p class="text-gray-700">
+                    12th Science Pass ( <strong> Maharashtra State Board</strong> )
+                </p>
+                <p class="text-gray-700">
+                    Duration: 2020 - 2021
+                </p>
+
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4" id="data2">
+                <h3 style="color: rgb(37 99 235 / 85%);" class="text-xl font-bold mb-2">
+                    Kokan Gyanpeeth Karjat College of Arts, Commerce & Science
+                </h3>
+                <p class="text-gray-700">
+                    BSc IT Graduate ( <strong>Mumbai University</strong> )
+                </p>
+                <p class="text-gray-700">
+                    Duration: 2021 - 2024
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr class="hr">
+
+    <!-- Contact Section -->
+    <section class="container mx-auto px-4 py-16 bg-white rounded-lg shadow-md section" id="contact"
+        style="max-width: 800px;">
+        <h2 class="text-3xl font-bold text-center mb-8" id="contacthd">
+            Contact Me
+        </h2>
+        <form class="max-w-lg mx-auto">
+            <div style="color: rgb(37 99 235 / 85%);" class="text-xl font-bold mb-2" id="footer-text1">
+                <h3><a href="https://www.linkedin.com/in/k-deshmukh">k-deshmukh</a></h3>
+            </div>
+            <div style="color: rgb(37 99 235 / 85%);" class="text-xl font-bold mb-2" id="footer-text2">
+                <h3><a href="https://github.com/kd19210048">kd19210048</a></h3>
+            </div>
+            <div style="color: rgb(37 99 235 / 85%);" class="text-xl font-bold mb-2" id="footer-text3">
+                <h3><a href="mailto:kd19210048@gmail.com">kd19210048@gmail.com</a></h3>
+            </div>
+            <div style="color: rgb(37 99 235 / 85%);" class="text-xl font-bold mb-2" id="footer-text4">
+                <h3><a href="tel:+8275237455">+91 8275237455</a></h3>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/k-deshmukh/"><i class="fab fa-linkedin" id="footer-icons1"></i></a>
+                <a href="https://github.com/kd19210048"><i class="fab fa-github" id="footer-icons2"></i></a>
+                <a href="mailto:kd19210048@gmail.com"><i class="fas fa-envelope" id="footer-icons3"></i></a>
+                <a href="tel:+8275237455"><i class="fas fa-phone" id="footer-icons4"></i></a>
+            </div>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Front-End Dev.'],
+            typeSpeed: 40,       // Smooth & natural typing speed
+            backSpeed: 30,       // Smooth erasing speed
+            backDelay: 1000,     // Small delay before erasing
+            loop: true,          // Infinite loop
+            showCursor: true,    // Cursor for real typing feel
+            cursorChar: '|',     // Classic blinking cursor
+            smartBackspace: false, // Ensures smooth transition
+            preStringTyped: () => requestAnimationFrame(() => { }) // Forces smooth rendering
+        });
+    </script>
+</body>
+
+</html>
